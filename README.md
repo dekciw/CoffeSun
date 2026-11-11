@@ -10,11 +10,11 @@
   <img src="https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black" alt="React 19">
   <img src="https://img.shields.io/badge/Vite-7-646CFF?logo=vite&logoColor=white" alt="Vite 7">
   <img src="https://img.shields.io/badge/Sass-SCSS-CC6699?logo=sass&logoColor=white" alt="SCSS">
-  <a href="https://dekciw.github.io/coffee-code/"><img src="https://img.shields.io/badge/GitHub_Pages-online-222222?logo=github&logoColor=white" alt="GitHub Pages"></a>
+  <a href="https://dekciw.github.io/CoffeSun/"><img src="https://img.shields.io/badge/GitHub_Pages-online-222222?logo=github&logoColor=white" alt="GitHub Pages"></a>
 </p>
 
 <p align="center">
-  <a href="https://dekciw.github.io/coffee-code/">
+  <a href="https://dekciw.github.io/CoffeSun/">
     <img src="https://img.shields.io/badge/Открыть_в_браузере-5F413C?style=for-the-badge" alt="Открыть в браузере">
   </a>
 </p>
