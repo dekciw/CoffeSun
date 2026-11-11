@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "images": "images/coffee-categories/coffee1.png",
+    "title": "BOASI Gran Caffe",
+    "desc": " Мягкий сбалансированный вкус и яркий насыщенный аромат.",
+    "weight": 1,
+    "price": "1 276",
+    "color": "var(--red-gradient)",
+    "border": "var(--red-color)"
+  },
+  {
+    "id": 2,
+    "images": "images/coffee-categories/coffee2.png",
+    "title": "BOASI Gran Caffe",
+    "desc": "Ароматный кофе, с едва ощутимой финальной кислинкой.",
+    "weight": 1,
+    "price": "1 053",
+    "color": "var(--green-gradient)",
+    "border": "var(--green-color)"
+  },
+  {
+    "id": 3,
+    "images": "images/coffee-categories/coffee3.png",
+    "title": "BOASI Gran Riserva Speciale",
+    "desc": "Изысканная смесь с особо выраженной полнотелостью.",
+    "weight": 1,
+    "price": "1 082",
+    "color": "var(--black-gradient)",
+    "border": "var(--black-color)"
+  },
+  {
+    "id": 4,
+    "images": "images/coffee-categories/coffee4.png",
+    "title": "BOASI Gran Caffe Professional",
+    "desc": "Насыщенная смесь с богатым, интенсивным вкусом.",
+    "weight": 1,
+    "price": "1 534",
+    "color": "var(--dark-red-gradient)",
+    "border": "var(--dark-red-color)"
+  },
+  {
+    "id": 5,
+    "images": "images/coffee-categories/coffee5.png",
+    "title": "BOASI Super Crema Pro",
+    "desc": "Насыщенная смесь с богатым, интенсивным вкусом.",
+    "weight": 1,
+    "price": "992",
+    "color": "var(--gray-gradient)",
+    "border": "var(--light-gray-color)"
+  },
+  {
+    "id": 6,
+    "images": "images/coffee-categories/coffee6.png",
+    "title": "ВOASI Gran Riserva",
+    "desc": "Деликатная, ароматная и душистая смесь.",
+    "weight": 1,
+    "price": "1 503",
+    "color": "var(--blue-gradient)",
+    "border": "var(--blue-color)"
+  }
+]

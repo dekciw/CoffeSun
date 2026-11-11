@@ -1,0 +1,7 @@
+.products__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 384px);
+  row-gap: 30px;
+  column-gap: 24px;
+  padding-bottom: 120px;
+}

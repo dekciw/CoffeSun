@@ -1,0 +1,97 @@
+:root {
+    --white-color: #FFFFFF;
+    --gray-color: #BBBBBB;
+    --accent-color: #5F413C;
+    --accent-hover-color: #503632;
+    --background-color: #080B0E;
+    --red-color: #850C1B;
+    --dark-red-color: #7E1221;
+    --green-color: #01502e;
+    --black-color: #434145;
+    --light-gray-color: #D7D2CF;
+    --blue-color: #023860;
+
+    --red-gradient: linear-gradient(170deg, #850C1B 33.34%, rgba(246, 21, 53, 0.20) 92.01%);
+    --dark-red-gradient: linear-gradient(170deg, #7E1221 33.34%, rgba(167, 58, 73, 0.20) 92.01%);
+    --green-gradient: linear-gradient(170deg, #002416 33.34%, rgba(0, 144, 113, 0.20) 92.01%);
+    --black-gradient: linear-gradient(170deg, #6F6F71 33.34%, rgba(67, 65, 69, 0.20) 92.01%);
+    --gray-gradient: linear-gradient(170deg, #D7D2CF 33.34%, rgba(239, 239, 239, 0.20) 92.01%);
+    --blue-gradient: linear-gradient(170deg, #023860 33.34%, rgba(16, 46, 72, 0.20) 92.01%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: var(--white-color);
+    background-color: var(--background-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 162px;
+    height: 61px;
+    text-align: center;
+    border-radius: 30px;
+    background: var(--accent-color);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    text-decoration: none;
+
+    font-family: 'Roboto', sans-serif;
+    color: var(--white-color);
+    font-size: 18px;
+    font-weight: 500;
+
+    &:hover {
+        background: var(--accent-hover-color);
+    }
+}
+
+.button-transition {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: 2px solid var(--accent-color);
+    transition: all 0.3s ease;
+    color: var(--white-color);
+    text-decoration: none;
+
+    &:hover {
+        color: var(--white-color);
+        background: var(--accent-color);
+
+    }
+}
+
+.button:disabled {
+    background: var(--gray-color);
+    cursor: not-allowed;
+}
+
+.title {
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}

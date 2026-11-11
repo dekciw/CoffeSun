@@ -1,0 +1,21 @@
+.footer {
+  margin-top: 120px;
+  border-top: 1px solid var(--accent-color);
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  &__rights {
+    color: var(--gray-color);
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
